@@ -9,6 +9,7 @@
 
 ## Table of Contents
 
+- [CHANGELOG](./CHANGELOG.md)
 - [License](#license)
 
 ### License
