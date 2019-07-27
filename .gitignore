@@ -2,6 +2,8 @@
 node_modules/
 npm-debug.log
 
+# Lerna (https://lerna.js.org)
+lerna-debug.log
 
 ## VS Code (https://code.visualstudio.com)
 .vscode/

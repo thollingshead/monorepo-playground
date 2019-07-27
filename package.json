@@ -22,10 +22,12 @@
     "@commitlint/config-conventional": "^8.1.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "husky": "^3.0.1"
+    "husky": "^3.0.1",
+    "lerna": "^3.16.4"
   },
   "scripts": {
     "commit": "git-cz",
-    "husky:commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "husky:commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+    "postinstall": "lerna bootstrap"
   }
 }
