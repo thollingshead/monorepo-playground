@@ -1,0 +1,20 @@
+{
+  "name": "@thollingshead/monorepo-playground",
+  "version": "0.0.0",
+  "description": "Playground for TS, lerna, jest, travis and codecov.",
+  "homepage": "https://github.com/thollingshead/monorepo-playground#readme",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thollingshead/monorepo-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thollingshead/monorepo-playground/issues"
+  },
+  "contributors": [
+    {
+      "name": "Tim Hollingshead",
+      "email": "thollingshead@esri.com"
+    }
+  ]
+}
