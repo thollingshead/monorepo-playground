@@ -2,8 +2,11 @@
 
 > NodeJS-based task runners for common ArcGIS tasks.
 
+[![build status][build-status-badge]][build-status-url]
 [![apache 2.0 licensed][license-badge]][license-url]
 
+[build-status-badge]: https://travis-ci.com/thollingshead/monorepo-playground.svg?branch=master
+[build-status-url]: https://travis-ci.com/thollingshead/monorepo-playground
 [license-badge]: https://img.shields.io/github/license/thollingshead/monorepo-playground
 [license-url]: #license
 
