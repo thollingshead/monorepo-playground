@@ -5,5 +5,8 @@ npm-debug.log
 # Lerna (https://lerna.js.org)
 lerna-debug.log
 
+# Compiled TypeScript (https://www.typescriptlang.org)
+packages/*/dist
+
 ## VS Code (https://code.visualstudio.com)
 .vscode/
