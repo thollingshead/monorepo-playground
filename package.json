@@ -20,18 +20,23 @@
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
+    "@types/jest": "^24.0.15",
     "@types/node": "^12.6.8",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.0.1",
+    "jest": "^24.8.0",
     "lerna": "^3.16.4",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
   "scripts": {
     "build": "lerna run build",
     "clean": "rm -rf ./packages/*/dist",
     "commit": "git-cz",
+    "husky:pre-commit": "npm run test --silent",
     "husky:commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "test": "jest"
   }
 }
