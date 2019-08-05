@@ -1,0 +1,25 @@
+{
+  "name": "@monorepo-playground/doctor",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/thollingshead/monorepo-playground/tree/master/packages/doctor#readme",
+  "license": "Apache-2.0",
+  "main": "dist/doctor.js",
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thollingshead/monorepo-playground.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/thollingshead/monorepo-playground/issues"
+  }
+}
